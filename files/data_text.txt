@@ -1,0 +1,98 @@
+{
+	"device_name": "16ch Shoulder Coil",
+	"device_class": "I",
+	"client": {
+		"name": "NeoCoil, LLC",
+		"short": "NeoCoil",
+		"address": " N27 W23910A Paul Rd. Pewaukee, WI 53072 USA",
+		"date": "2022-04-09"
+	},
+	"device_description": "The 16ch Shoulder Coil is a receive-only phased array RF coil designed for optimum signal-to-noise ratio (SNR) and uniform coverage of the shoulder anatomy for use with GE Healthcare Magnetic Resonance Imaging (MRI) scanners. The coil receives magnetic resonance signals generated in hydrogen nuclei (protons) in the shoulder while blocking the high-frequency magnetic field applied by the MRI scanner at specified timings.
+	The received signals are amplified before being transferred to the MRI scanner through the coil’s system cable. The amplified signals are processed into tomographic images of the shoulder anatomy by the MRI scanner.
+	Images are typically generated as axial, sagittal, coronal oblique slices and include coverage of the Humerus, Humeral Head, Labrum, Labral Tear, Glenoid, Scapula, Clavicle, and Rotator Cuff regions of the shoulder anatomy.
+	During a shoulder MRI exam, the patient lays in the supine position on the MRI scanner table. The rigid Posterior Array is positioned beneath the patient’s affected shoulder. The flexible Anterior Array is positioned on top of the patient’s affected shoulder. The 16ch Shoulder Posterior Housing Pad and 16ch Shoulder Pad provided with the coil promote patient comfort and facilitate patient positioning. Table Straps provided with the MRI scanner may be used to minimize unintended patient movement during the exam. Illustration of the architecture of the 16ch Shoulder Coil is shown in Figure 1.",
+	"image1": {
+		"src": ["we want a source to an image here"],
+		"caption": "Table 1 Illustration of the Shoulder Coil Systems (Strap is not shown)"
+	},
+	"inclusion_criteria": [
+		"Citation addresses performance, risks, and/or safety of the 16ch Shoulder Coil Device (products or equivalent products).",
+		"Products are used in ways like indications for use of the 16ch Shoulder Coil Device products. ",
+		"Any articles considered relevant to the state of the art/current knowledge identified during this search will be included in the state-of-the-art section"
+	],
+	"exclusion_criteria": [
+		"Citation describes technical or non-clinical study results only.",
+    	"The study design contains unsubstantiated opinions",
+    	"The study design contains insufficient information to undertake a scientific analysis.",
+    	"The full text of the citation cannot be interpreted due to limitations in obtaining appropriate translations.",
+        "The abstract or full paper could not be retrieved.",
+    	"Papers including multiple devices and/or combined treatment with medicinal products from which it is not possible to extract safety or performance data for the target devices/equivalent devices."
+	],
+	"suitability_table": {
+		"headers": ["Criteria", "Description"],
+		"rows": [
+			{"Criteria": "CK0", "Description": "No SoTA information."},
+			{"Criteria": "CK1", "Description": "Establishment of current knowledge/ the state of the art on the medical condition"},
+			{"Criteria": "CK2", "Description": "Establishment of current knowledge/ the state of the art on alternative therapies/treatments"},
+			{"Criteria": "CK3", "Description": "Determination and justification of criteria for the evaluation of the risk/benefit relationship"},
+			{"Criteria": "CK4", "Description": "Determination and justification of criteria for the evaluation of acceptability of undesirable side-effects"}
+		],
+		"table_caption": "Table 1 Criteria for State of the Art"
+	},
+
+	"suitability_criteria_table":{
+		"headers": ["Suitability Criteria", "Description", "Grading System" ],
+		"rows": [
+			{"Suitability Criteria": "Appropriate device", "Description": "Were the data generated from the device in question?", "Grading System": "D1 Actual device D2 Comparable device D3 Other devices"}
+		],
+		"table_caption": "Table 2 Criteria for Suitability"
+	},
+	"sci_databases":[
+
+		{
+			"db":{
+				"name": "PubMed",
+				"link": "https://www.ncbi.nlm.nih.gov/pubmed"
+
+			},
+			"sota_terms": [
+				"(Shoulder) AND ((Magnetic Resonance Imaging) OR (MRI) OR (COIL))",
+				"(Shoulder) AND ((Magnetic Resonance Imaging) OR (MRI) OR (COIL)) AND ((Ultrasound) OR (computed tomography) OR (X-ray) OR (Fluoroscopy))",
+				"(Shoulder) AND ((Magnetic Resonance Imaging) OR (MRI)) AND ((Ultrasound) OR (computed tomography) OR (X-ray) OR (Fluoroscopy)) AND (Diagnostic Image OR Image)"
+
+			],
+
+			"sp_terms": [
+				"(Shoulder) AND ((16ch Shoulder Coil) OR (Coil) AND (NeoCoil))",
+				"(Shoulder) AND ((16ch Shoulder Coil) OR (Coil) AND (NeoCoil)) AND ((Diagnostic Image) or (Image))"
+
+			]
+
+
+
+		},
+
+		{
+			"db":{
+				"name": "PubMed Central",
+				"link": "https://www.ncbi.nlm.nih.gov/pmc"
+
+			},
+
+			"sota_terms": [
+				"(Shoulder) AND ((Magnetic Resonance Imaging) OR (MRI) OR (COIL))",
+				"(Shoulder) AND ((Magnetic Resonance Imaging) OR (MRI) OR (COIL)) AND ((Ultrasound) OR (computed tomography) OR (X-ray) OR (Fluoroscopy))",
+				"(Shoulder) AND ((Magnetic Resonance Imaging) OR (MRI)) AND ((Ultrasound) OR (computed tomography) OR (X-ray) OR (Fluoroscopy)) AND (Diagnostic Image OR Image)"
+
+			],
+
+			"sp_terms": [
+				"(Shoulder) AND ((16ch Shoulder Coil) OR (Coil) AND (NeoCoil))",
+				"(Shoulder) AND ((16ch Shoulder Coil) OR (Coil) AND (NeoCoil)) AND ((Diagnostic Image) or (Image))"
+
+			]
+
+		}
+	]	
+
+}
